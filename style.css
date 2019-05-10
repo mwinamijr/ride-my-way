@@ -1,15 +1,15 @@
 
 * {
-    margin :20;
-    padding :20;
+  margin :20;
+  padding :20;
 }
     
     
 body {
-    background: url("images/abstract2.jpjg");
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 h1,
@@ -23,8 +23,8 @@ h6 {
   font-weight: 700; }
 
 p {
-  font-family: "Raleway", sans-serif;
-  color: #fdfbfb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400; }
@@ -61,7 +61,23 @@ footer {
   background-color: #36325c; 
   text-align: center;
 }
+footer p {
+    color: #fff;
+  }
 
+#account {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+
+  }
+#account a {
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: green;
+  font-weight: 600;
+  font-size: 14px; 
+}
 .container {
     border-radius: 3px;
     background-color: #f2f2f2;
@@ -113,31 +129,135 @@ footer {
   
   /* Style items (options): */
 .select-items {
-    position: absolute;
-    background-color: DodgerBlue;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
   
-  /* Hide the items when the select box is closed: */
+/* Hide the items when the select box is closed: */
 .select-hide {
-    display: none;
+  display: none;
   }
   
 .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+  background-color: rgba(0, 0, 0, 0.1);
+    }
 
-  .float-right{
-      float: right !important;
+.float-right{
+  float: right !important;
 }
 
 .row{
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-wrap:wrap;flex-wrap:wrap;
-    margin-right:-15px;
-    margin-left:-15px
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;flex-wrap:wrap;
+  margin-right:-15px; margin-left:-15px
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(2, 99, 243);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #79312c;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 14px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.default {
+  width: 30%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container-signin {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
 }
