@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>My ride</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <nav class="container">
+            <nav class="">
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -17,11 +21,28 @@
         </header>
 
         <main>
-
+            <div class="container">
+                <h2>Ride offers</h2>
+                <img src="images/offers.png" alt="offers">
+            </div>
+            
+            <div class="container">
+                <div class="custom-select" style="width:200px;">
+                    <h2>Offers selection</h2>
+                    <select>
+                        <option value="0">Select offer:</option>
+                        <option value="1">One Way</option>
+                        <option value="2">Return Trip</option>
+                        <option value="3">Family Package</option>
+                        <option value="4">Custom Cars</option>
+                    </select>
+                </div>
+            </div>
         </main>
 
         <footer>
 
         </footer>
+        <script src="main.js"></script>
     </bod>
 </html>
