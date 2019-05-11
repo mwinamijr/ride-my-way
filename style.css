@@ -314,3 +314,11 @@ span.psw {
   margin-bottom: 20px;
   color: #666;
 }
+
+.head {
+  font-size: 26px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-align: center;
+}
