@@ -1,3 +1,4 @@
 # my-ride
 
-This is a site where you can get a solution for transportations
+This is a great site where you can get all the solutions for you transportation needs
+
