@@ -8,7 +8,7 @@ class Main extends Component {
       <div>
         <div className="container">
             <div className="container">
-                <h1>Ride My Ride</h1>
+                <h1 style={{fontSize:'48px', textAlign:'center'}}>Ride My Way</h1>
             </div>
             <h2 className="head">Ride offers</h2>
             <img src={offers} alt="offers"/>
