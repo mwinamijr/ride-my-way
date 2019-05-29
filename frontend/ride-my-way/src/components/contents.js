@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import offers from '../assets/offers.png';
+import { NavLink } from 'react-router-dom';
+
 import './index.css';
 
 class Main extends Component {
@@ -27,7 +29,7 @@ class Main extends Component {
             </div>
         </div>
         <div className="container" id="account">
-            <p>Do you have an account? <a href="signin.html">Login</a> or <a href="signup.html">Sign Up</a></p>
+            <p>Do you have an account? <NavLink to="/signin">Login</NavLink> or <NavLink to="/signup">Sign Up</NavLink></p>
         </div>
       </div>
     );

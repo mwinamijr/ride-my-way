@@ -11,7 +11,7 @@ class Profile extends Component {
         <div>
             <div className="p-container">
                 <div className="avatar">
-                  <img src={Avatar} height="150" width="150" />
+                  <img src={Avatar} alt="profile" height="150" width="150" />
                 </div>
                 <h2>Mwinami JR</h2>
                 <h4>PRO DRIVER</h4>

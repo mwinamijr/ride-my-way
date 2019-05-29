@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from 'react-router-dom';
 import './index.css';
 
 class Navbar extends Component {
@@ -6,12 +7,20 @@ class Navbar extends Component {
     return (
       <div>
         <header className="container">
-          <div className="custom-header" >
+          <div className='link'>
             <ul>
-            <li><a className="active" href="#">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a class="float-right" href="profile.html">Profile</a></li>
-            <li><a class="float-right" href="signin.html">Login</a></li>
+              <li>
+                <NavLink className='a' exact to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink className='a' exact to="/contact">Contact</NavLink>
+              </li>
+              <li>
+                <NavLink className='a' exact to="/profile">Profile</NavLink>
+              </li>
+              <li>
+                <NavLink className='a' exact to="/signin">Login</NavLink>
+              </li>
             </ul>
           </div>
         </header>

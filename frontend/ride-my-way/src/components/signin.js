@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from 'react-router-dom';
 import Navbar from "./Navbar"
 import Footer from './footer'
 import Avatar from '../assets/images/default.png'
@@ -35,7 +36,7 @@ class Signin extends Component {
                 </form>
             </div>
             <div className="container" id="account">
-                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <p>Don't have an account? <NavLink to="/signup">Sign Up</NavLink></p>
             </div>
         </div>
         <Footer />

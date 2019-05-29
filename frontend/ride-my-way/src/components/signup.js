@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from 'react-router-dom';
 import Navbar from "./Navbar"
 import Footer from './footer'
 
@@ -37,7 +38,7 @@ class Signup extends Component {
                 </div>
             </form>
               <div className="container" id="account">
-                    <p>Already have an account? <a href="signin.html">Login</a></p>
+                    <p>Already have an account? <NavLink to="/signin">Login</NavLink></p>
                 </div>
         </div>
         <Footer />
