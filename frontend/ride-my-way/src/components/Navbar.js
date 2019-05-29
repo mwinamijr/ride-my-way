@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <header>
+        <header className="container">
           <div className="custom-header" >
             <ul>
             <li><a className="active" href="#">Home</a></li>
