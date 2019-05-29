@@ -4,15 +4,15 @@ import './index.css';
 function navbar() {
   return (
     <header>
-    <nav>
-      <ul>
-        <li><a className="active" href="#">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a class="float-right" href="profile.html">Profile</a></li>
-        <li><a class="float-right" href="signin.html">Login</a></li>
-      </ul>
-    </nav>
-  </header>
+      <nav>
+        <ul>
+          <li><a className="active" href="#">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="float-right" href="profile.html">Profile</a></li>
+          <li><a class="float-right" href="signin.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 
