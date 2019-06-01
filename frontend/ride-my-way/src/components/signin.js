@@ -10,13 +10,13 @@ class Signin extends Component {
       <div>
         <Navbar />
         <div>
-            <div className="container">
+            <div className="form">
                 <form action="action_page.php">
                     <div className="imgcontainer">
                     <img src={Avatar} alt="default" className="default"/>
                     </div>
                 
-                    <div className="container">
+                    <div className="">
                     <label for="uname"><b>Username</b></label>
                     <input type="text" placeholder="Enter Username" name="uname" required/>
                 
@@ -29,7 +29,7 @@ class Signin extends Component {
                     </label>
                     </div>
                 
-                    <div className='container'>
+                    <div className=''>
                     <button type="button" className="cancelbtn">Cancel</button>
                     <span class="psw">Forgot <a href="#">password?</a></span>
                     </div>
